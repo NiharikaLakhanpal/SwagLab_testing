@@ -1,0 +1,22 @@
+Traceability Matrix,,,
+Test Case ID,Test Case Description,Automated Test Script (Name),Feature
+TC_LOGIN_01,Valid login,test_login1.py,User authentication
+TC_LOGIN_02,Invalid password,test_login2.py,User authentication
+TC_LOGIN_03,Locked out user,test_login3.py,User authentication
+TC_CART_01,Add item(s) to the cart,test_cart1.py,Cart management
+TC_CART_02,Remove product from  cart,test_cart2.py,Cart management
+TC_CART_03,Cart persistence after re-login,test_cart3.py,Cart management
+TC_CHECKOUT_01,Successful Checkout Flow,test_checkout1.py,Checkout process
+TC_CHECKOUT_02,Checkout without filling info,test_checkout2.py,Checkout process
+TC_CHECKOUT_03,Checkout with wrong zipcode,test_checkout3.py,Checkout process
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

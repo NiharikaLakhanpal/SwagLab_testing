@@ -1,0 +1,11 @@
+Manual Test Cases,,,,,
+Test Case ID,Test Scenario,Tasks,Expected Result,Actual Result,Status
+TC_LOGIN_01,Valid login,"Go to Login page ? Enter Username - standard_user, Password - secret_sauce ? Click Login",Redirect to Inventory page,Redirect to Inventory page,Pass
+TC_LOGIN_02,Invalid password,"Go to Login page ? Enter Username - standard_user, Password - abcd ? Click Login",Error message: incorrect credentials,Error message: “Epic sadface: Username and password do not match…”,Pass
+TC_LOGIN_03,Locked out user,"Go to Login page ? Enter Username - locked_out_user, Password - secret_sauce ? Click Login",Error message: user is locked out,"Error message: “Epic sadface: Sorry, this user has been locked out.”",Pass
+TC_CART_01,Add item(s) to the cart,"Login as standard_user ? Click ""Add to cart"" on desired item(s)? Click Cart icon",The item(s) are visible in the cart,The item(s) added appear correctly in the cart,Pass
+TC_CART_02,Remove product from  cart,"Open cart ? Click ""Remove"" ",The item is removed from the cart,The removed item is no longer in the cart,Pass
+TC_CART_03,Cart persistence after re-login,Add item(s) to cart ? Logout ? Login again as same user ? Click Cart icon,Cart should retain previously added item(s),"	Items still present in cart",Pass
+TC_CHECKOUT_01,Successful Checkout Flow,"Add any item to cart ? Click Cart ? Click Checkout ? Fill info (First name, Last name, Zip) ? Continue ? Finish",Order placed successfully,Checkout: Complete                 Thankyou for your order,Pass
+TC_CHECKOUT_02,Checkout without filling info,Add any item to cart ? Click Cart ? Click Checkout ? Leave infor fields empty ? Continue,Error message stating it is necessary to enter the name etc.,Error: First Name is required,Pass
+TC_CHECKOUT_03,Checkout with wrong zipcode,"Add any item to cart ? Click Cart ? Click Checkout ? Fill info (First name, Last name, Wrong Zip) ? Continue ? Finish",Error message: enter a valid zipcode,Continues without any error,Fail

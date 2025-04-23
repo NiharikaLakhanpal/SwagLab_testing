@@ -1,0 +1,10 @@
+Login successful!
+Sauce Labs Bike Light added to cart!
+Screenshot saved: screenshots/TC_CART_02_added_bike_light_20250423_231330.png
+Screenshot (add): screenshots/TC_CART_02_added_bike_light_20250423_231330.png
+Navigated to cart page!
+Item in cart: Sauce Labs Bike Light
+Product removed from cart!
+Screenshot saved: screenshots/TC_CART_02_removed_bike_light_20250423_231331.png
+Screenshot (remove): screenshots/TC_CART_02_removed_bike_light_20250423_231331.png
+TC_CART_02 -- Passed - Cart is empty!

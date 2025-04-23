@@ -1,0 +1,7 @@
+Logging in...
+Logged in successfully.
+Adding item to cart...
+Item is in cart.
+Checkout info page loaded.
+TC_CHECKOUT_01 -- Passed: Order placed successfully.
+Screenshot saved: screenshots/TC_CHECKOUT_01_pass_20250423_231354.png

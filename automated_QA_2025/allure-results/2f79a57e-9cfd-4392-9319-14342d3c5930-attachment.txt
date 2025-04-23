@@ -1,0 +1,2 @@
+TC_LOGIN_01 Passed
+Screenshot saved: screenshots/TC_LOGIN_01_pass_20250423_231435.png

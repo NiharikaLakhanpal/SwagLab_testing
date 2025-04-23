@@ -1,0 +1,5 @@
+Login successful!
+Product added to cart!
+Navigated to cart page!
+Screenshot saved: screenshots/TC_CART_01_add_product_20250423_231318.png
+TC_CART_01 -- Passed
